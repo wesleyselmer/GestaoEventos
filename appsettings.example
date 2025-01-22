@@ -1,0 +1,13 @@
+{
+  "MongoDBDatabase": {
+    "ConnectionString": "",
+    "DatabaseName": "",
+    "CampoCollectionName": ""
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}

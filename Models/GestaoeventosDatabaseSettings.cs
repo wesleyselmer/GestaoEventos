@@ -1,11 +1,11 @@
 public class GestaoeventosDatabaseSettings
 {
-    public string ConnectionString { get; set; }
-    public string DatabaseName { get; set; }
-    public string PessoaCollectionName { get; set; }
-    public string CampoCollectionName { get; set; }
-    public string EventoCollectionName { get; set; }
-    public string FamiliaCollectionName { get; set; }
-    public string HotelCollectionName { get; set; }
-    public string InfoObreiroCollectionName { get; set; }
+    public required string ConnectionString { get; set; }
+    public required string DatabaseName { get; set; }
+    public required string PessoaCollectionName { get; set; }
+    public required string CampoCollectionName { get; set; }
+    public required string EventoCollectionName { get; set; }
+    public required string FamiliaCollectionName { get; set; }
+    public required string HotelCollectionName { get; set; }
+    public required string InfoObreiroCollectionName { get; set; }
 }

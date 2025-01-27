@@ -3,6 +3,10 @@ using MongoDB.Bson.Serialization.Attributes;
 
 public class Quarto
 {
+   [BsonId]
+   [BsonRepresentation(BsonType.ObjectId)]
+   public string? Id { get; set; }
+   
     [BsonElement("tipo")]
     public required string Tipo { get; set; }
 

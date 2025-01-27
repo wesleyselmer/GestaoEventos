@@ -8,4 +8,5 @@ public class GestaoeventosDatabaseSettings
     public required string FamiliaCollectionName { get; set; }
     public required string HotelCollectionName { get; set; }
     public required string InfoObreiroCollectionName { get; set; }
+    public required string QuartoCollectionName { get; set; }
 }

@@ -5,7 +5,7 @@ public class InfoObreiro
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
-    public required string Id { get; set; }
+    public string? Id { get; set; }
 
     [BsonElement("pessoaId")]
     public required string PessoaId { get; set; }

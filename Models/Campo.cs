@@ -5,7 +5,7 @@ public class Campo
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
-    public required string Id { get; set; }
+    public string? Id { get; set; }
 
     [BsonElement("nome")]
     public required string Nome { get; set; }

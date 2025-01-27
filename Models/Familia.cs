@@ -5,7 +5,7 @@ public class Familia
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
-    public required string Id { get; set; }
+    public string? Id { get; set; }
 
     [BsonElement("pessoaIdPai")]
     public string? PessoaIdPai { get; set; }

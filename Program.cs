@@ -9,6 +9,11 @@ builder.Services.Configure<GestaoeventosDatabaseSettings>
 
 builder.Services.AddSingleton<PessoaServices>();
 builder.Services.AddSingleton<CampoServices>();
+builder.Services.AddSingleton<EventoServices>();
+builder.Services.AddSingleton<FamiliaServices>();
+builder.Services.AddSingleton<HotelServices>();
+builder.Services.AddSingleton<InfoObreiroServices>();
+builder.Services.AddSingleton<QuartoServices>();
 
 builder.Services.AddControllers();
 
